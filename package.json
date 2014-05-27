@@ -1,0 +1,49 @@
+{
+  "name": "url-o-matic",
+  "version": "0.1.0",
+  "description": "URL helpers. First version just contains 'baseurl(url)' which extracts the root domain or IP of a full URL. 'baseurl' extracts the top-level domains (TLD) but will also handle extracting second level domains (SLD) based on the latest known SLD list.",
+  "main": "lib/urlomatic.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/trentmillar/url-o-matic.git"
+  },
+  "keywords": [
+    "url",
+    "helper",
+    "utility",
+    "tld",
+    "sld",
+    "domain",
+    "url-o-matic",
+    "domain name",
+    "uri",
+    "top level domain",
+	"ip",
+	"ip address"
+  ],
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Trent Millar"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/trentmillar/url-o-matic/blob/master/LICENSE"
+    }
+  ],
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "should": "~3.3.1"
+  },
+  "readme": "# url-o-matic\nContains helpers used to perform common funtions on URLs. First version just contains 'baseurl(url)' which extracts the root domain or IP of a full URL. 'baseurl' extracts the top-level domains (TLD) but will also handle extracting second level domains (SLD) based on the latest known SLD list.\n",
+  "bugs": {
+    "url": "https://github.com/trentmillar/url-o-matic/issues"
+  },
+  "homepage": "https://github.com/trentmillar/url-o-matic"
+}
